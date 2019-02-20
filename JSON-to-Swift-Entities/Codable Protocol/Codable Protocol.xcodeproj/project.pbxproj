@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2203148221CEA8C00D21F9E /* PhotosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2203147221CEA8C00D21F9E /* PhotosTableViewController.swift */; };
+		E220314B221CED6200D21F9E /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2203149221CED6200D21F9E /* PhotosTableViewCell.swift */; };
+		E220314D221CF1B500D21F9E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E220314C221CF1B500D21F9E /* Photo.swift */; };
+		E220314F221CF37300D21F9E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = E220314E221CF37300D21F9E /* Response.swift */; };
 		E25345EB221A4E2F009FBA21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25345EA221A4E2F009FBA21 /* AppDelegate.swift */; };
-		E25345ED221A4E2F009FBA21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25345EC221A4E2F009FBA21 /* ViewController.swift */; };
 		E25345F0221A4E2F009FBA21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25345EE221A4E2F009FBA21 /* Main.storyboard */; };
 		E25345F3221A4E2F009FBA21 /* Codable_Protocol.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E25345F1221A4E2F009FBA21 /* Codable_Protocol.xcdatamodeld */; };
 		E25345F5221A4E30009FBA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25345F4221A4E30009FBA21 /* Assets.xcassets */; };
@@ -35,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E2203147221CEA8C00D21F9E /* PhotosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewController.swift; sourceTree = "<group>"; };
+		E220314A221CED6200D21F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		E220314C221CF1B500D21F9E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E220314E221CF37300D21F9E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		E25345E7221A4E2F009FBA21 /* Codable Protocol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codable Protocol.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25345EA221A4E2F009FBA21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E25345EC221A4E2F009FBA21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E25345EF221A4E2F009FBA21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25345F2221A4E2F009FBA21 /* Codable_Protocol.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Codable_Protocol.xcdatamodel; sourceTree = "<group>"; };
 		E25345F4221A4E30009FBA21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				E25345EA221A4E2F009FBA21 /* AppDelegate.swift */,
-				E25345EC221A4E2F009FBA21 /* ViewController.swift */,
+				E2203147221CEA8C00D21F9E /* PhotosTableViewController.swift */,
+				E220314E221CF37300D21F9E /* Response.swift */,
 				E25345EE221A4E2F009FBA21 /* Main.storyboard */,
+				E220314C221CF1B500D21F9E /* Photo.swift */,
+				E2203149221CED6200D21F9E /* PhotosTableViewCell.swift */,
 				E25345F4221A4E30009FBA21 /* Assets.xcassets */,
 				E25345F6221A4E30009FBA21 /* LaunchScreen.storyboard */,
 				E25345F9221A4E30009FBA21 /* Info.plist */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25345ED221A4E2F009FBA21 /* ViewController.swift in Sources */,
+				E220314B221CED6200D21F9E /* PhotosTableViewCell.swift in Sources */,
 				E25345F3221A4E2F009FBA21 /* Codable_Protocol.xcdatamodeld in Sources */,
 				E25345EB221A4E2F009FBA21 /* AppDelegate.swift in Sources */,
+				E2203148221CEA8C00D21F9E /* PhotosTableViewController.swift in Sources */,
+				E220314F221CF37300D21F9E /* Response.swift in Sources */,
+				E220314D221CF1B500D21F9E /* Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +309,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E2203149221CED6200D21F9E /* PhotosTableViewCell.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E220314A221CED6200D21F9E /* Base */,
+			);
+			name = PhotosTableViewCell.swift;
+			sourceTree = "<group>";
+		};
 		E25345EE221A4E2F009FBA21 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
